@@ -1,5 +1,5 @@
 {
-	"name": "boletosimples/boletosimples",
+	"name": "williamvilas/boletosimples",
 	"type": "library",
 	"description": "A PHP client library for easily accessing Boleto Simples API.",
 	"keywords": ["boleto","simples","boletosimples","ecommerce"],
@@ -18,13 +18,13 @@
     "sources": "https://github.com/BoletoSimples/boletosimples-php"
   },
   "require": {
-    "guzzlehttp/guzzle": "*",
-    "commerceguys/guzzle-oauth2-plugin": "*"
+    "guzzlehttp/guzzle": "6.5.2",
+    "commerceguys/guzzle-oauth2-plugin": "^2.1.1"
 	},
   "require-dev": {
-    "phpunit/phpunit": "*",
-    "php-vcr/php-vcr": "*",
-    "php-vcr/phpunit-testlistener-vcr": "*",
+    "phpunit/phpunit": "9.0.1",
+    "php-vcr/php-vcr": "1.4.4",
+    "php-vcr/phpunit-testlistener-vcr": "3.2.1",
     "ptrofimov/xpmock": "dev-master"
   },
 	"autoload": {
