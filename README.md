@@ -18,7 +18,7 @@ Biblioteca PHP para acessar informações do [Boleto Simples](http://boletosimpl
 
 ### Requisitos
 
-PHP 5.4 ou superior
+PHP 7.2 ou superior
 
 ### Usando [Composer](https://getcomposer.org/)
 
@@ -29,7 +29,7 @@ Crie um arquivo chamado `composer.json` com o seguinte conteúdo:
   "minimum-stability": "dev",
   "prefer-stable" : true,
   "require": {
-    "boletosimples/boletosimples": "dev-master"
+    "williamvilas/boletosimples": "0.0.7"
   }
 }
 ```
@@ -37,6 +37,10 @@ Crie um arquivo chamado `composer.json` com o seguinte conteúdo:
 Execute:
 
     $ composer install
+    
+    ou
+    
+    $ composer require williamvilas/boletosimples
 
 ## Configuração
 
@@ -238,28 +242,7 @@ $discharge = BoletoSimples\Discharge::create(array (
 ));
 ```
 
-## Desenvolvendo
-
-Instale as dependências
-
-    $ composer install
-
-Rode os testes
-
-    $ ./vendor/bin/phpunit
-
 ## Licença
 
 Esse código é livre para ser usado dentro dos termos da licença [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
-## Bugs, Issues, Agradecimentos, etc
-
-Comentários são bem-vindos. Envie seu feedback através do [issue tracker do GitHub](http://github.com/BoletoSimples/boletosimples-php/issues)
-
-## Autor
-
-[**Rafael Lima**](http://github.com/rafaelp) trabalhando no [Boleto Simples](http://boletosimples.com.br)
-
-Blog: [http://rafael.adm.br](http://rafael.adm.br)
-
-Twitter: [http://twitter.com/rafaelp](http://twitter.com/rafaelp)
