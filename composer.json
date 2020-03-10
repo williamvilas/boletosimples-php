@@ -1,5 +1,5 @@
 {
-	"name": "boletosimples/boletosimples",
+	"name": "williamvilas/boletosimples",
 	"type": "library",
 	"description": "A PHP client library for easily accessing Boleto Simples API.",
 	"keywords": ["boleto","simples","boletosimples","ecommerce"],
